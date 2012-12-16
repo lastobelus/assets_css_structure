@@ -4,20 +4,20 @@
 //= require_self
 
 // site/brand specific sass variables go here
-@import "base"
+@import "base";
 // here foundation variables are set to values defined in base
-@import "foundation_and_overrides"
+@import "foundation_and_overrides";
 
 // overrides/customizations of vendor libs go here. 
 // If possible they should be independent, so this can be left as a blob
- @import "vendor_overrides/**/*"
+ @import "vendor_overrides/**/*";
 
 // styles which build on basic foundation layouts. 
 // Should use SMACSS -- if the glob stops working 
 // consider that a css code smell
-@import "layout/**/*"
+@import "layout/**/*";
 
 // styles which build modules.
 // Should use SMACSS -- if the glob stops working 
 // consider that a css code smell
-@import "module/**/*"
+@import "module/**/*";

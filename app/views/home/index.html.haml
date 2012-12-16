@@ -1,0 +1,14 @@
+.row
+  .eight.columns
+    .panel
+      %h2 Base Foundation
+      panel should be gray
+    .panel.callout.radius
+      %h3 Callout Panel
+      using background color $mainColor defined in foundation_and_overrides, which is set to $brandOne which is defined in base.css.scss and should be orange.
+    .panel.callout.radius.modufriend
+      %h3 Callout Panel
+      using definition in modufriend module, which sets background colour to $brandTwo which is defined in base.css.scss and should be green.
+    .somelib
+      %h3 Vendored Lib
+      using defininition in vendor/assets/stylesheets/non_sass/somelib/somelib.css. Should be black with yellow header text and pink paragraph text, which is defined in assets/stylesheets/vendor_overrides/somelib_overrides.css.scss using $brandThree.

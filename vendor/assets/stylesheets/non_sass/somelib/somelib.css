@@ -1,0 +1,13 @@
+.somelib {
+  background-color: black;
+  color: yellow;
+}
+
+.somelib h1,
+.somelib h2,
+.somelib h3,
+.somelib h4,
+.somelib h5,
+.somelib h6 {
+  color: yellow;
+}

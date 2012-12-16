@@ -1,0 +1,7 @@
+$modufriendBaseColour: $brandTwo;
+
+// NOTE, because the callout panel is defined using .panel.callout, we need to either use the same level
+// of specificity (either .panel.modufriend or .callout.panel.modufriend) OR use ! important to get our override
+.callout.panel.modufriend {
+  background-color: $modufriendBaseColour;
+}

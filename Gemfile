@@ -22,8 +22,12 @@ end
 
 gem 'jquery-rails'
 
+group :development do
+  gem "haml-rails"
+end
 
 # Additions for Canonical CSS Management
 group :assets do
+  gem 'compass-rails'
   gem "zurb-foundation"
 end
